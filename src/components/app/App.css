@@ -1,0 +1,69 @@
+body {
+  background-color: #f8f9fa; /* Светлый фон для всей страницы */
+  font-family: 'Arial', sans-serif; /* Задайте шрифт для всего приложения */
+}
+
+.container {
+  margin-top: 50px; /* Отступ сверху для контейнера */
+}
+
+form {
+  background-color: #fff; /* Белый фон для формы */
+  border-radius: 8px; /* Сглаживание углов */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Тень для создания глубины */
+  padding: 20px; /* Внутренние отступы */
+}
+
+.form-control {
+  border-radius: 5px; /* Сглаживание углов для полей ввода */
+  border: 1px solid #ced4da; /* Граница поля ввода */
+  transition: border-color 0.3s; /* Плавный переход цвета границы */
+}
+
+.form-control:focus {
+  border-color: #80bdff; /* Цвет границы при фокусе */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Тень при фокусе */
+  outline: none; /* Убираем стандартное выделение при фокусе */
+}
+
+.form-label {
+  font-weight: bold; /* Полужирный шрифт для меток */
+  margin-bottom: 5px; /* Отступ снизу для меток */
+}
+
+textarea {
+  border-radius: 5px; /* Сглаживание углов для текстовой области */
+  border: 1px solid #ced4da; /* Граница текстовой области */
+  resize: none; /* Запрет на изменение размера текстовой области */
+}
+
+textarea:focus {
+  border-color: #80bdff; /* Цвет границы текстовой области при фокусе */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Тень при фокусе */
+  outline: none; /* Убираем стандартное выделение при фокусе */
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem; /* Больше отступ между элементами формы */
+}
+
+.mt-3 {
+  margin-top: 10px; /* Отступ сверху для меток */
+}
+
+button {
+  background-color: #007bff; /* Цвет фона кнопки */
+  color: #ffffff; /* Цвет текста кнопки */
+  border: none; /* Убираем рамку */
+  border-radius: 5px; /* Сглаживание углов для кнопки */
+  padding: 10px 20px; /* Внутренние отступы для кнопки */
+  cursor: pointer; /* Курсор руки при наведении */
+  transition: background-color 0.3s, transform 0.3s; /* Плавный переход цвета фона */
+}
+
+button:hover {
+  background-color: #0056b3; /* Более темный цвет кнопки при наведении */
+  transform: scale(1.05); /* Увеличение размера кнопки при наведении */
+}
+
+.text-danger { color: red; }
