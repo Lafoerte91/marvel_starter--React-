@@ -1,10 +1,17 @@
 import './SingleComicPage.scss';
 import { useParams, Link } from 'react-router-dom';
 import xMen from '../../resources/img/x-men.png';
+import  {Helmet} from 'react-helmet'
 
 const SingleComicPage = () => {
     return (
         <div className="single-comic">
+            <Helmet>
+                <meta
+                    name="description"
+                    content="Page with list of our comics" />
+                <title>X-Men: Days of Future Past</title>
+            </Helmet>
             <img src={xMen} alt="x-men" className="single-comic__img"/>
             <div className="single-comic__info">
                 <h2 className="single-comic__name">X-Men: Days of Future Past</h2>
